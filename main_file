@@ -13,9 +13,9 @@ number_list = random.sample(numbers,nr_numbers) #creating a random list of numbe
 symbol_list = random.sample(symbols,nr_symbols) #creating a random list of symbols
 
 final_password = letter_list + number_list + symbol_list #appending the lists to get a final list of password
-print(final_password)
+#print(final_password)
 random.shuffle(final_password) #shuffling the list items so that there is no specific order
-print(str(final_password))
+#print(str(final_password))
 
 password = ""                 #finally converting the list of password into a string
 for char in final_password:
